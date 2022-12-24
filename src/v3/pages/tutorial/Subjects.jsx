@@ -64,7 +64,7 @@ const Subjects = () => {
                     {subject.materialNameInArabic}
                   </p>
                   <img
-                    src={`http://localhost:4000${subject.photoURL}`}
+                    src={subject.photoURL}
                     alt=""
                     className="w-[180px] object-cover block"
                   />

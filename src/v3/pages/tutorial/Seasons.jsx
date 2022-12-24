@@ -45,7 +45,7 @@ const Seasons = () => {
                   className="bg-white group no-underline text-black rounded-lg  delay-100    hover:-rotate-3 shadow-lg flex flex-col justify-center items-center w-[276px] p-[25px] min-h-[180px]  "
                 >
                   <img
-                    src={`http://localhost:4000${season.photoURL}`}
+                    src={season.photoURL}
                     alt=""
                     className="w-[180px] object-cover block "
                   />
