@@ -55,7 +55,9 @@ const Video = () => {
           <div className="w-full flex gap-[50px] flex-col-reverse lg:flex-row items-start justify-center mt-5">
             <div className="w-[100%] mx-auto lg:w-[100%]">
               <video
-                src={lesson?.data?.video[0]?.url}
+                src={
+                  "http://191.101.229.249:4000" + lesson?.data?.video[0]?.url
+                }
                 className="w-full rounded-lg"
                 controls
               ></video>

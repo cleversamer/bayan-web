@@ -96,7 +96,7 @@ const Lessons = () => {
               </p>
 
               <video
-                src={content.subjectVideoURL}
+                src={"http://191.101.229.249:4000" + content.subjectVideoURL}
                 className="rounded-lg w-full"
                 controls
               ></video>
