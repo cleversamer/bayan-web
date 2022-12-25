@@ -1,7 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import client from "../client";
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
-import { auth } from "v2/firebase";
+import { auth } from "v3/firebase";
 
 const login = async (authType, credentials) => {
   return await client.post("/auth/login", {

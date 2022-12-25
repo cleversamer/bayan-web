@@ -3,10 +3,10 @@ import { useNavigate } from "react-router-dom";
 
 import PopupMessage from "../PopupMessage";
 
-import useAuth from "v2/auth/useAuth";
-import storage from "v2/auth/storage";
-import usersApi from "v2/api/user/users";
-import toast from "v2/services/toast";
+import useAuth from "v3/auth/useAuth";
+import storage from "v3/auth/storage";
+import usersApi from "v3/api/user/users";
+import toast from "v3/services/toast";
 
 import { AiOutlineEye, AiOutlineLock } from "react-icons/ai";
 

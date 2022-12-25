@@ -2,15 +2,15 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
-import unitsApi from "v2/api/tutorial/units";
-import lessonsApi from "v2/api/tutorial/lessons";
-import toast from "v2/services/toast";
-import useAuth from "v2/auth/useAuth";
+import unitsApi from "v3/api/tutorial/units";
+import lessonsApi from "v3/api/tutorial/lessons";
+import toast from "v3/services/toast";
+import useAuth from "v3/auth/useAuth";
 
-import WhatsApp from "v2/components/WhatsApp";
-import Footer from "v2/components/Footer";
-import Navbar from "v2/components/Navbar";
-import Social from "v2/components/Social";
+import WhatsApp from "v3/components/WhatsApp";
+import Footer from "v3/components/Footer";
+import Navbar from "v3/components/Navbar";
+import Social from "v3/components/Social";
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 

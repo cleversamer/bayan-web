@@ -2,13 +2,13 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-import useAuth from "v2/auth/useAuth";
-import authApi from "v2/api/user/auth";
-import storage from "v2/auth/storage";
-import toast from "v2/services/toast";
+import useAuth from "v3/auth/useAuth";
+import authApi from "v3/api/user/auth";
+import storage from "v3/auth/storage";
+import toast from "v3/services/toast";
 
-import WhatsApp from "v2/components/WhatsApp";
-import PopupMessage from "v2/components/PopupMessage";
+import WhatsApp from "v3/components/WhatsApp";
+import PopupMessage from "v3/components/PopupMessage";
 
 import { FcGoogle } from "react-icons/fc";
 import { BsPerson } from "react-icons/bs";

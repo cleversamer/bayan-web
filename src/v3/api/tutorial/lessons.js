@@ -1,6 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 import client from "../client";
-import authStorage from "v2/auth/storage";
+import authStorage from "v3/auth/storage";
 
 // Requires auth token, but it is optional
 // This api call will be always receiving data

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-import api from "v2/api/client";
-import { UserAuth } from "v2/auth/context";
+import api from "v3/api/client";
+import { UserAuth } from "v3/auth/context";
 
 const Quiz = () => {
   const { quizId } = useParams();

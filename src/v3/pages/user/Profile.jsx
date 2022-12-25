@@ -3,15 +3,15 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
-import useAuth from "v2/auth/useAuth";
-import usersApi from "v2/api/user/users";
-import toast from "v2/services/toast";
+import useAuth from "v3/auth/useAuth";
+import usersApi from "v3/api/user/users";
+import toast from "v3/services/toast";
 
-import Footer from "v2/components/Footer";
-import Navbar from "v2/components/Navbar";
-import Social from "v2/components/Social";
-import WhatsApp from "v2/components/WhatsApp";
-import PopupMessage from "v2/components/PopupMessage";
+import Footer from "v3/components/Footer";
+import Navbar from "v3/components/Navbar";
+import Social from "v3/components/Social";
+import WhatsApp from "v3/components/WhatsApp";
+import PopupMessage from "v3/components/PopupMessage";
 import SubscriptionItem from "../admin/SubscriptionItem";
 
 import { BsPerson } from "react-icons/bs";

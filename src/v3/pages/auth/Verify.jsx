@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-import useAuth from "v2/auth/useAuth";
-import usersApi from "v2/api/user/users";
-import toast from "v2/services/toast";
+import useAuth from "v3/auth/useAuth";
+import usersApi from "v3/api/user/users";
+import toast from "v3/services/toast";
 
-import useCountdown from "v2/hooks/useCountdown";
+import useCountdown from "v3/hooks/useCountdown";
 
-import PopupMessage from "v2/components/PopupMessage";
+import PopupMessage from "v3/components/PopupMessage";
 import { RiMailCheckLine } from "react-icons/ri";
 
 const Verify = () => {

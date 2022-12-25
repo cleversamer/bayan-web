@@ -3,13 +3,13 @@
 import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 
-import lessonsApi from "v2/api/tutorial/lessons";
-import toast from "v2/services/toast";
+import lessonsApi from "v3/api/tutorial/lessons";
+import toast from "v3/services/toast";
 
-import WhatsApp from "v2/components/WhatsApp";
-import Footer from "v2/components/Footer";
-import Navbar from "v2/components/Navbar";
-import Social from "v2/components/Social";
+import WhatsApp from "v3/components/WhatsApp";
+import Footer from "v3/components/Footer";
+import Navbar from "v3/components/Navbar";
+import Social from "v3/components/Social";
 
 import { AiOutlineDownload } from "react-icons/ai";
 

@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-import Footer from "v2/components/Footer";
-import Heading from "v2/components/Heading";
-import Navbar from "v2/components/Navbar";
-import Social from "v2/components/Social";
-import WhatsApp from "v2/components/WhatsApp";
+import Footer from "v3/components/Footer";
+import Heading from "v3/components/Heading";
+import Navbar from "v3/components/Navbar";
+import Social from "v3/components/Social";
+import WhatsApp from "v3/components/WhatsApp";
 
 const Packages = () => {
   return (

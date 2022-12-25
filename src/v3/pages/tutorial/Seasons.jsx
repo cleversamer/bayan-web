@@ -2,13 +2,13 @@
 /* eslint-disable react/jsx-no-target-blank */
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import seasonsApi from "v2/api/tutorial/seasons";
+import seasonsApi from "v3/api/tutorial/seasons";
 
-import Footer from "v2/components/Footer";
-import Heading from "v2/components/Heading";
-import Navbar from "v2/components/Navbar";
-import Social from "v2/components/Social";
-import WhatsApp from "v2/components/WhatsApp";
+import Footer from "v3/components/Footer";
+import Heading from "v3/components/Heading";
+import Navbar from "v3/components/Navbar";
+import Social from "v3/components/Social";
+import WhatsApp from "v3/components/WhatsApp";
 
 const Seasons = () => {
   const { gradeId } = useParams();

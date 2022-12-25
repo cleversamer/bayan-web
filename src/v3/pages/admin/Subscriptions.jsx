@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 
-import usersApi from "v2/api/user/users";
+import usersApi from "v3/api/user/users";
 
 import SubscriptionsList from "./SubscriptionsList";
 import SubjectsList from "./SubjectsList";

@@ -2,14 +2,14 @@
 import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 
-import subjectsApi from "v2/api/tutorial/subjects";
-import packageApi from "v2/api/tutorial/package";
+import subjectsApi from "v3/api/tutorial/subjects";
+import packageApi from "v3/api/tutorial/package";
 
-import Footer from "v2/components/Footer";
-import Heading from "v2/components/Heading";
-import Navbar from "v2/components/Navbar";
-import Social from "v2/components/Social";
-import WhatsApp from "v2/components/WhatsApp";
+import Footer from "v3/components/Footer";
+import Heading from "v3/components/Heading";
+import Navbar from "v3/components/Navbar";
+import Social from "v3/components/Social";
+import WhatsApp from "v3/components/WhatsApp";
 
 const Subjects = () => {
   const { seasonId, gradeId } = useParams();

@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import gradesApi from "v2/api/tutorial/grades";
+import gradesApi from "v3/api/tutorial/grades";
 
-import Footer from "v2/components/Footer";
-import Navbar from "v2/components/Navbar";
-import Heading from "v2/components/Heading";
-import Social from "v2/components/Social";
-import WhatsApp from "v2/components/WhatsApp";
+import Footer from "v3/components/Footer";
+import Navbar from "v3/components/Navbar";
+import Heading from "v3/components/Heading";
+import Social from "v3/components/Social";
+import WhatsApp from "v3/components/WhatsApp";
 
 const Grades = () => {
   const { levelId } = useParams();

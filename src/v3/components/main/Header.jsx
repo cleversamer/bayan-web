@@ -1,6 +1,6 @@
-import Toggler from "v2/components/main/Toggler";
-import LevelsList from "v2/components/main/LevelsList";
-import Testimonial from "v2/components/main/Testimonial";
+import Toggler from "v3/components/main/Toggler";
+import LevelsList from "v3/components/main/LevelsList";
+import Testimonial from "v3/components/main/Testimonial";
 
 const Header = ({ levels, setShowVideo }) => {
   return (

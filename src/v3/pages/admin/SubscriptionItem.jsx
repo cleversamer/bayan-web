@@ -3,8 +3,8 @@ import { useState } from "react";
 import styled from "styled-components";
 import Switch from "react-switch";
 
-import usersApi from "v2/api/user/users";
-import toast from "v2/services/toast";
+import usersApi from "v3/api/user/users";
+import toast from "v3/services/toast";
 
 const SubscriptionItem = ({
   subscription,

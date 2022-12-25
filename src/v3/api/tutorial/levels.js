@@ -1,6 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 import client from "../client";
-import authStorage from "v2/auth/storage";
+import authStorage from "v3/auth/storage";
 
 const getAllLevels = async () => {
   return await client.get("/levels");

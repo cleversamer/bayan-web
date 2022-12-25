@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import levelsApi from "v2/api/tutorial/levels";
-import toast from "v2/services/toast";
+import levelsApi from "v3/api/tutorial/levels";
+import toast from "v3/services/toast";
 
 import MainAdmin from "./MainAdmin";
-import PopupMessage from "v2/components/PopupMessage";
+import PopupMessage from "v3/components/PopupMessage";
 
 const AddLevel = () => {
   const [selectedPhotoUrl, setSelectedPhotoUrl] = useState("");

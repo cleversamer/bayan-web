@@ -2,8 +2,8 @@ import { useState } from "react";
 
 import PopupMessage from "../PopupMessage";
 
-import usersApi from "v2/api/user/users";
-import toast from "v2/services/toast";
+import usersApi from "v3/api/user/users";
+import toast from "v3/services/toast";
 
 import { BsPerson } from "react-icons/bs";
 

@@ -1,9 +1,9 @@
-import Testimonial from "v2/hoc/Testimonial";
+import Testimonial from "v3/hoc/Testimonial";
 
-import Footer from "v2/components/Footer";
-import Navbar from "v2/components/Navbar";
-import Social from "v2/components/Social";
-import WhatsApp from "v2/components/WhatsApp";
+import Footer from "v3/components/Footer";
+import Navbar from "v3/components/Navbar";
+import Social from "v3/components/Social";
+import WhatsApp from "v3/components/WhatsApp";
 
 const About = ({ content }) => {
   return (

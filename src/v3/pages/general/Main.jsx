@@ -1,13 +1,13 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react";
-import levelsApi from "v2/api/tutorial/levels";
+import levelsApi from "v3/api/tutorial/levels";
 
-import Header from "v2/components/main/Header";
-import PopupVideo from "v2/components/main/PopupVideo";
-import Footer from "v2/components/Footer";
-import Navbar from "v2/components/Navbar";
-import Social from "v2/components/Social";
-import WhatsApp from "v2/components/WhatsApp";
+import Header from "v3/components/main/Header";
+import PopupVideo from "v3/components/main/PopupVideo";
+import Footer from "v3/components/Footer";
+import Navbar from "v3/components/Navbar";
+import Social from "v3/components/Social";
+import WhatsApp from "v3/components/WhatsApp";
 
 const Main = () => {
   const [levels, setLevels] = useState([]);

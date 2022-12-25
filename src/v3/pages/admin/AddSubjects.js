@@ -1,14 +1,14 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from "react";
 
-import levelsApi from "v2/api/tutorial/levels";
-import gradesApi from "v2/api/tutorial/grades";
-import seasonsApi from "v2/api/tutorial/seasons";
-import subjectsApi from "v2/api/tutorial/subjects";
-import toast from "v2/services/toast";
+import levelsApi from "v3/api/tutorial/levels";
+import gradesApi from "v3/api/tutorial/grades";
+import seasonsApi from "v3/api/tutorial/seasons";
+import subjectsApi from "v3/api/tutorial/subjects";
+import toast from "v3/services/toast";
 
 import MainAdmin from "./MainAdmin";
-import PopupMessage from "v2/components/PopupMessage";
+import PopupMessage from "v3/components/PopupMessage";
 
 const AddSubjects = () => {
   const [selectedPhotoUrl, setSelectedPhotoUrl] = useState("");

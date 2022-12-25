@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import ForgotPasswordForm from "v2/components/auth/ForgotPasswordForm";
-import ResetPasswordForm from "v2/components/auth/ResetPasswordForm";
+import ForgotPasswordForm from "v3/components/auth/ForgotPasswordForm";
+import ResetPasswordForm from "v3/components/auth/ResetPasswordForm";
 
 const ForgotPassword = () => {
   const [formData, setFormData] = useState({ codeSent: false, email: "" });

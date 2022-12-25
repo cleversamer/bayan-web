@@ -1,47 +1,47 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import "v2/index.css";
+import "v3/index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 
 import { Routes, Route, Navigate } from "react-router-dom";
-import AuthContext from "v2/auth/context";
+import AuthContext from "v3/auth/context";
 import usersApi from "./api/user/users";
 
-import AddLesson from "v2/pages/admin/AddLesson";
-import AddLevel from "v2/pages/admin/AddLevel";
-import AddGrade from "v2/pages/admin/AddGrade";
-import AddSeason from "v2/pages/admin/AddSeason";
-import AddSubjects from "v2/pages/admin/AddSubjects";
-import AddUnits from "v2/pages/admin/AddUnits";
-import AddDoc from "v2/pages/admin/AddDoc";
-import AddVideo from "v2/pages/admin/AddVideo";
-// import AddQuiz from "v2/pages/admin/AddQuiz";
-// import AddQuizQuestion from "v2/pages/admin/AddQuizQuestion";
-// import AddQuestion from "v2/pages/admin/AddQuestion ";
-import ControlPanel from "v2/pages/admin/ControlPanel";
+import AddLesson from "v3/pages/admin/AddLesson";
+import AddLevel from "v3/pages/admin/AddLevel";
+import AddGrade from "v3/pages/admin/AddGrade";
+import AddSeason from "v3/pages/admin/AddSeason";
+import AddSubjects from "v3/pages/admin/AddSubjects";
+import AddUnits from "v3/pages/admin/AddUnits";
+import AddDoc from "v3/pages/admin/AddDoc";
+import AddVideo from "v3/pages/admin/AddVideo";
+// import AddQuiz from "v3/pages/admin/AddQuiz";
+// import AddQuizQuestion from "v3/pages/admin/AddQuizQuestion";
+// import AddQuestion from "v3/pages/admin/AddQuestion ";
+import ControlPanel from "v3/pages/admin/ControlPanel";
 
-import ForgotPassword from "v2/pages/auth/ForgotPassword";
-import Login from "v2/pages/auth/Login";
-import Register from "v2/pages/auth/Register";
-import RegisterWithGoogle from "v2/pages/auth/RegisterWithGoogle";
-import Verify from "v2/pages/auth/Verify";
+import ForgotPassword from "v3/pages/auth/ForgotPassword";
+import Login from "v3/pages/auth/Login";
+import Register from "v3/pages/auth/Register";
+import RegisterWithGoogle from "v3/pages/auth/RegisterWithGoogle";
+import Verify from "v3/pages/auth/Verify";
 
 import Splash from "./pages/general/Splash";
-import About from "v2/pages/general/About";
-import Instructions from "v2/pages/general/Instructions";
-import Main from "v2/pages/general/Main";
-import Privacy from "v2/pages/general/Privacy";
+import About from "v3/pages/general/About";
+import Instructions from "v3/pages/general/Instructions";
+import Main from "v3/pages/general/Main";
+import Privacy from "v3/pages/general/Privacy";
 
-import Grades from "v2/pages/tutorial/Grades";
-import Seasons from "v2/pages/tutorial/Seasons";
-import Subjects from "v2/pages/tutorial/Subjects";
-import Lessons from "v2/pages/tutorial/lesson/Lessons";
-// import Package from "v2/pages/tutorial/Package";
-// import Quiz from "v2/pages/tutorial/lesson/Quiz";
-import Video from "v2/pages/tutorial/lesson/Video";
+import Grades from "v3/pages/tutorial/Grades";
+import Seasons from "v3/pages/tutorial/Seasons";
+import Subjects from "v3/pages/tutorial/Subjects";
+import Lessons from "v3/pages/tutorial/lesson/Lessons";
+// import Package from "v3/pages/tutorial/Package";
+// import Quiz from "v3/pages/tutorial/lesson/Quiz";
+import Video from "v3/pages/tutorial/lesson/Video";
 
-import Profile from "v2/pages/user/Profile";
+import Profile from "v3/pages/user/Profile";
 import { useState } from "react";
 import { useEffect } from "react";
 
