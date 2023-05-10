@@ -10,11 +10,7 @@ const LevelsList = ({ levels }) => {
           to={`/class/${level._id}`}
           className="children no-underline  hover:scale-110 duration-100 max-w-[220px] "
         >
-          <img
-            src={"http://191.101.229.249:4000" + level.photoURL}
-            className={`block`}
-            alt=""
-          />
+          <img src={level.photoURL} className={`block`} alt="" />
 
           <p className="text-black w-fit mx-auto mt-[20px]  text-center text-[13px] md:text-[18px]">
             {level.title}
